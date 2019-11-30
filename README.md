@@ -1,6 +1,6 @@
-# Media Finder
+# Diagram Manager
   
-Image manager is an application which allows you to manage(view/delete) images present in a cacaoo application can be found at
+Diagram manager is an application which allows you to manage(view/delete) images present in a cacaoo application can be found at
 
 More info about cacoo application can be found at https://nulab.com/products/cacoo/
 
@@ -22,8 +22,11 @@ https://developer.nulab.com/docs/cacoo/auth/#authentication-authorization
 
 # How to setup this application locally ?
   1. Clone the repository from command line using below command
-      git clone https://github.com/sayali-kotkar/media-finder.git).
+      https://github.com/sayali-kotkar/diagram-manager
   2. Run mvn spring-boot:run command from the project folder using command prompt/terminal.
+  3. Run below commands to start ui
+      - npm install
+	  - ng serve
   
 # Swagger UI Url:
   * http://localhost:8080/swagger-ui.html
