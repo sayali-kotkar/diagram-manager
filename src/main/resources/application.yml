@@ -1,0 +1,11 @@
+spring:
+  application:
+          name: cacoo-interview
+
+apiKey: ociqOkRlgpmmDWjWiNa9
+
+diagrams:
+ url:
+  get: https://cacoo.com/api/v1/diagrams.json
+  post: https://cacoo.com/api/v1/diagrams/create.json
+  delete: https://cacoo.com/api/v1/diagrams/{diagramId}/delete.json
